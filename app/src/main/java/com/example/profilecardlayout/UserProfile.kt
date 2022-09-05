@@ -5,7 +5,7 @@ data class UserProfile constructor(val name: String, val status: Boolean, val pi
 val userProfileList = arrayListOf(
         UserProfile(
                 name = "Rajendra",
-                status = false,
+                status = true,
                 "https://images.unsplash.com/photo-1561820009-8bef03ebf8e5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTM3fHxwb3J0cmFpdHxlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
         ),
         UserProfile(
